@@ -6,19 +6,8 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: rgb(255, 247, 170);
 }
-
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
-}
-
 
 /*
  * Base structure
@@ -27,7 +16,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  /*background-color: #333;*/
   background-color: #540000;
 }
 
@@ -37,12 +25,13 @@ body {
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   /*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
+  font-size: 1.4rem;
+  font-weight: 300;
 }
 
 .cover-container {
   max-width: 42em;
 }
-
 
 /*
  * Header
@@ -110,18 +99,23 @@ body {
   margin-bottom: 4rem;
 }
 
-.lead .btn {
-  /*background-color: white;*/
+.lead {
+  font-size: 120%;
+  font-weight: 400;
 }
 
 #nomasabusoslogo {
-  width: 20rem;
+  max-width: 20rem;
   margin: 2rem;
   border-radius: 8%;
 }
 
 #opciones {
   margin-bottom: 4rem;
+}
+
+#opciones .btn {
+  font-size: 100%;
 }
 
 .modal-content {

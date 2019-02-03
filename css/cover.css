@@ -121,9 +121,29 @@ body {
 }
 
 #opciones {
-  /*margin-bottom: 4rem;*/
+  margin-bottom: 4rem;
 }
 
 .modal-content {
   background-color: #540000;
+}
+
+.enlaceDestacado {
+  border-bottom: .25em solid yellow;
+}
+
+.enlaceDestacado:hover {
+  color:white;
+  background-color: red;
+  border-bottom: .25em solid red;
+  transition: background-color .5s, color .5s, border .5s;
+  text-decoration: none !important;
+}
+
+#opciones h2 {
+  color: #d7d700;
+}
+
+#opciones > .row > div {
+  margin-bottom: 2rem;
 }

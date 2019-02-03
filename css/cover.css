@@ -123,3 +123,7 @@ body {
 #opciones {
   /*margin-bottom: 4rem;*/
 }
+
+.modal-content {
+  background-color: #540000;
+}

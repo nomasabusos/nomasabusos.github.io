@@ -1,0 +1,79 @@
+:root{
+  --no-visitado-bg-color: aquamarine;
+  --visitado-bg-color: lightskyblue;
+  --color-opciones: #b30303;
+}
+
+body {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.principal {
+  margin-bottom: 4rem;
+}
+
+.lead {
+  font-size: 120%;
+  font-weight: 400;
+  color: var(--color-opciones);
+}
+
+#nomasabusoslogo {
+  max-width: 20rem;
+  margin: 2rem;
+  border-radius: 8%;
+  border: white solid .3rem;
+  box-shadow: 0 0 .4rem .2rem rgba(0, 0, 0, .5);
+}
+
+#opciones {
+  margin-bottom: 4rem;
+}
+
+#opciones .btn {
+  font-size: 100%;
+}
+
+#opciones h2 {
+  color: var(--color-opciones);
+}
+
+#opciones > .row > div {
+  margin-bottom: 2rem;
+}
+
+.social .btn {
+  width: 3rem;
+  color: white;
+  margin-bottom: .4rem;
+}
+
+a, a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  border-bottom: .25em solid var(--no-visitado-bg-color);
+  transition: background-color .5s, color .5s;
+}
+
+a:hover {
+  background-color: var(--no-visitado-bg-color);
+}
+
+a:visited:not(.btn) {
+  border-color: var(--visitado-bg-color);
+}
+
+#modalContacto .modal-header{
+  padding: 0;
+  background-color: black;
+}
+
+#modalContacto .bg-danger {
+  padding: 1rem;
+  border-top-left-radius: inherit;
+  font-weight: bold;
+}

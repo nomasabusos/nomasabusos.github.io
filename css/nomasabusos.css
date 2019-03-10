@@ -77,3 +77,8 @@ a:visited:not(.btn) {
   border-top-left-radius: inherit;
   font-weight: bold;
 }
+
+#opciones strong {
+  font-family: 'Zilla Slab',serif;
+  font-size: 1.6rem;
+}

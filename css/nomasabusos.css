@@ -10,7 +10,7 @@ body {
 }
 
 .principal {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .lead {
@@ -78,7 +78,48 @@ a:visited:not(.btn) {
   font-weight: bold;
 }
 
-#opciones strong {
+#opciones strong, .texto-social {
   font-family: 'Zilla Slab',serif;
   font-size: 1.6rem;
+}
+
+/* Iconos redes sociales */
+
+#contenido-social {
+  /* Marca el tamaño de los iconos sociales */
+  --icono-size: 3rem;
+}
+
+.fb-icono { 
+  background: url(https://Awes0meM4n.github.io/Logos/facebook/Facebook_logo_500x500.svg) no-repeat;
+}
+
+.tw-icono { 
+  background: url(https://Awes0meM4n.github.io/Logos/twitter/twitter_square_color.svg) no-repeat;
+}
+
+.icono {
+  -moz-transition: all 300ms ease-in-out 0s;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+  border-radius: 50%;
+  opacity: 0.8;
+  width: var(--icono-size);
+  height: var(--icono-size);
+  padding-left: var(--icono-size);
+  background-size: cover;
+  margin-bottom: 1rem;
+}
+
+.icono:hover {
+  border-radius: 0;
+  opacity: 1;
+}
+
+/* Quitar entilos de enlaces en iconos */
+#contenido-social a, #contenido-social a:hover {
+  border-bottom: none;
+  transition: none;
+  background-color: transparent;
 }
